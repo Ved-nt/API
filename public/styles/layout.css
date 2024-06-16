@@ -700,7 +700,8 @@ input[type="submit"]:hover{
 
 
 /* FOR MOBILE PHONES */
-@media(max-width:970px) {
+@media(max-width:1080px) {
+
 
     #loader h1{
         font-size: 7vw;
@@ -724,7 +725,7 @@ input[type="submit"]:hover{
     }
 
     nav h3{
-        font-size: 35px;
+        font-size: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -820,7 +821,7 @@ input[type="submit"]:hover{
     .m{
         padding: 0vw 10vw;
         position: absolute;
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 1;
         text-shadow: 0 4px 4px rgba(0, 0, 0, 1.25);
         font-family: "Playwrite VN", cursive;
@@ -852,7 +853,7 @@ input[type="submit"]:hover{
     }
 
     .mySwiper{
-        font-size:4.74vw;
+        font-size:5vw;
         color: #ef3506;
         margin-top: 50px;
         text-align: center;
@@ -875,7 +876,7 @@ input[type="submit"]:hover{
     #con{
         display: flex;
         flex-direction: column;
-        padding: 2vw 17vw;
+        padding: 2vw 14vw;
     }
 
     #one{
