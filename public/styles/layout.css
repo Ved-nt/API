@@ -876,7 +876,7 @@ input[type="submit"]:hover{
     #con{
         display: flex;
         flex-direction: column;
-        padding: 2vw 14vw;
+        padding: 2vw 9vw;
     }
 
     #one{
@@ -886,21 +886,23 @@ input[type="submit"]:hover{
         padding:.55vw 1.5vw;
     }
     #one h4{
+        font-size: 3vw;
         color: #fb5204;
-        padding-bottom: .95vw;
+        padding-bottom: .65vw;
     }
     #one h3{
-        padding-bottom: .95vw;
+        font-size: 3.5vw;
+        padding-bottom: .65vw;
     }
     #one p{
-        font-size: 3vw;
+        font-size: 3.5vw;
         width: 300px;
     }
 
     #two{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #two h4{
@@ -923,10 +925,10 @@ input[type="submit"]:hover{
     }
     #three h4{
         color: #fb5204;
-        padding-bottom: 1vw;
+        padding-bottom: .65vw;
     }
     #three h3{
-        padding-bottom: 1vw;
+        padding-bottom: .65vw;
     }
     #three p{
         font-size: 3vw;
