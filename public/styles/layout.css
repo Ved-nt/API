@@ -1,0 +1,1256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    cursor:pointer;
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/body.jpg");
+}
+
+/* FOR NAVBAR SECCTION */
+nav{
+    padding: 2vw 5vw;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ef3506;
+    background-image: url("/images/toolbar.jpg");
+}
+
+nav h3{
+    color: #fe690c;
+    display: flex;
+    justify-content: center;
+    gap: 0.75vw;
+    font-size: 36px;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#nav-part2 h4{
+    padding: 10px 20px;
+    border: 1px solid #ef3506;
+    border-radius: 50px;
+    transition: all ease 0.4s
+
+}
+
+#nav-part2 h4 a{
+    text-decoration: none;
+    color: #fc8804;
+    font-size: 21px;
+    font-weight:bolder;
+
+}
+
+#nav-part2 a:hover{
+    color: #fb5204;
+    font-size: 22px;
+}
+.mt{
+    display: none;
+}
+
+
+/* FOR ABOUT SECCTION */
+#bt{
+    padding: 1.5vw 5vw;
+}
+
+.bhg{
+    color: #ef3506 ;
+}
+
+.pt{
+    padding: 1vw 0vw;
+    font-size: 1.25vw;
+    font-weight: 500;
+    font-family: "Playwrite VN", cursive;
+}
+
+#abt{
+    margin: 1vw 15vw;
+    padding: 1.5vw 3.5vw;
+    background-color: rgb(248, 208, 173); 
+    border: 2px solid #fb2a05;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 5px #fb5204;
+}
+
+#abt h4{
+    color:#f49b0b;
+    font-weight: bold;
+    font-size: 1.75vw;
+    
+}
+
+.abt{
+    font-weight: bolder;
+    font-size: 2vw;
+    color: #fd1605;
+    text-decoration: underline;
+    font-family: "Playwrite VN", cursive;
+}
+
+li{
+    list-style: none;
+    padding: 1vw 0vw;
+    font-size: 1.25vw;
+    font-family: "Playwrite VN", cursive;
+}
+
+/* FOR HOME AND INDEX THE MAIN IMAGE  */
+#ban{
+
+    height: 450px;
+    position: relative;
+}
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    padding: 10vw 30vw;
+}
+
+.tm{
+    height: 100%;
+    width: 100%;
+    padding: 2vw 4.5vw;
+
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    color: transparent;
+
+}
+/* FOR MENU WHEN OPEN IN PHONE */
+.text-shadow{
+
+    position: relative;
+    font-size: 3.75rem;
+    line-height: 1;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    font-weight: 800;
+}
+
+.text-white{
+    color: #fff;
+}
+
+span{
+    color: rgb(254 223 137);
+
+}
+#full-scr {
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+
+#full-div1 {
+    height: 50%;
+    width: 100%;
+    background-image: url("/images/body.jpg");
+    border-bottom: 1px solid #ef3506;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* SWIPER AT THE HISTORY SECTION */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper{
+    font-size:2.8vw;
+    color: #ef3506;
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Playwrite VN", cursive;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    padding: 0vw 3vw;
+    color: transparent;
+}
+
+.m{
+    padding: 0vw 10vw;
+    position: absolute;
+    font-size: 3.05rem;
+    line-height: 1;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 1.25);
+    color: #fd1605;
+    font-family: "Playwrite VN", cursive;
+
+}
+
+    /* FOOTER */
+#footer{
+    margin-top: 110px;
+    border-top: 1px solid #ef3506 ;
+}
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 10px;
+}
+#foot h4 a{
+    color: #f49b0b;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+#footer p{
+    text-align: center;
+    color: #fb2a05;
+    margin-top: 5px;
+    font-size: 1.25vw;
+    padding-bottom: 10px;
+}
+
+/* RESPONSE AREA */
+.response-area{
+    font-family: "Playwrite VN", cursive;
+    padding: 2vw 6vw;
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+#myForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 1.6vw;
+    font-family: "Playwrite VN", cursive;
+}
+input[type="text"]{
+    padding: 8px;
+    font-family: "Playwrite VN", cursive;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border: 1px solid #000;
+    font-size: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #f49b0b;
+    color: #000;
+    padding: 12px 28px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #fe690c;
+}
+
+    /*CHAPTERS GRID  */
+    .ch{
+        text-align: center;
+        color: #ef3506;
+    }
+
+    #con{
+        display: grid;
+        gap: 10px;
+        padding: 2vw 15vw;
+        text-align: center;
+    }
+
+    #one{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #one h4{
+        color: #fb5204;
+        padding-bottom: .75vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #one h3{
+        padding-bottom: .75vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #one p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #two{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #two h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #two h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #two p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #three{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #three h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #three h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #three p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #four{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #four h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #four h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #four p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #five{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #five h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #five h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #five p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #six{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #six h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #six h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #six p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #seven{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #seven h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #seven h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #seven p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #eight{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #eight h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eight h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eight p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #nine{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #nine h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #nine h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #nine p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #ten{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #ten h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #ten h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #ten p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #eleven{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 6/7;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #eleven h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eleven h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eleven p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #twelve{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 6/7;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #twelve h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #twelve h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #twelve p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #thirteen{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 7/8;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #thirteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #thirteen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #thirteen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #fourteen{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 7/8;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #fourteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #fourteen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #fourteen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #fifteen{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 8/9;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #fifteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #fifteen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #fifteen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #sixteen{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 8/9;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #sixteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #sixteen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #sixteen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #seventeen{
+        border: 1px solid #000;
+        grid-column: 1/2;
+        grid-row: 9/10;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #seventeen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #seventeen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #seventeen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #eighteen{
+        border: 1px solid #000;
+        grid-column: 2/3;
+        grid-row: 9/10;
+        width: 500px;
+        height: 190px;
+        padding:.55vw 1.5vw;
+    }
+    #eighteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eighteen h3{
+        padding-bottom: .65vw;
+        font-family: "Playwrite VN", cursive;
+    }
+    #eighteen p{
+        width: 460px;
+        font-family: "Playwrite VN", cursive;
+    }
+
+
+/* FOR MOBILE PHONES */
+@media(max-width:970px) {
+
+    #loader h1{
+        font-size: 7vw;
+    }
+
+    .ima{
+        height: 30vh;
+        width: 25vh;
+    }
+
+    nav{
+        padding: 2vw 5vw;
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        border-bottom: 1px solid #ef3506;
+        background-image: url("/images/toolbar.jpg");
+    }
+
+    nav h3{
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75vw;
+    }
+
+    #nav-part2{
+        display: none;
+    }
+
+    .mt{
+        cursor: pointer;
+        display: block;
+        padding: 3vw 5vw;
+        border: 1px solid #fb5204;
+        border-radius: 50px;
+        font-size: 4.75vw;
+        font-weight: 800;
+        padding-left: 5vw;
+        display: flex;
+        align-items: center;
+    }
+
+    nav img {
+        transition: all ease 0.2s;
+        height: 9vh;
+    }
+
+
+    .pt{
+        padding: 1vw 0vw;
+        font-size: 3.25vw;
+
+    }
+
+    .abt{
+        font-weight: bolder;
+        font-size: 4.2vw;
+        color: #fd1605;
+        text-decoration: underline;
+    }
+
+    #abt h4{
+        color:#f49b0b;
+        font-weight: bold;
+        font-size: 3.25vw;
+    }
+
+    li{
+        list-style: none;
+        padding: 1vw 0vw;
+        font-size: 3.15vw;
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #abt{
+        margin: 1vw 9vw;
+        padding: 3.5vw 5vw;
+        border: 2px solid #fb2a05;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px 5px #fb5204;
+    }
+
+    .text-shadow{
+        text-align: center;
+        font-size: 2.45rem;
+    }
+
+    #flex{
+        display: flex;
+        flex-direction: column;
+        padding: 35vw 5vw;
+
+    }
+
+    .tm{
+        padding: 2vw 0vw;
+    }
+
+    #full-scr #full-div1 h4 {
+        font-size: 15vw;
+        text-align: right;
+        padding-right: 8vw;
+    }
+    #full-scr #full-div1 h4 a{
+        color: #f49b0b;
+        text-decoration: none;
+    }
+    #full-scr #full-div1 {
+        padding-top: 20vw;
+    }
+
+    .m{
+        padding: 0vw 10vw;
+        position: absolute;
+        font-size: 3.5rem;
+        line-height: 1;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 1.25);
+        font-family: "Playwrite VN", cursive;
+    }
+
+    #footer{
+        margin-top: 100px;
+        border-top: 1px solid #ef3506 ;
+    }
+    #foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.75vw;
+        padding-top: 10px;
+    }
+    #foot h4 a{
+        color: #f49b0b;
+        font-size: 4.5vw;
+        text-decoration: none;
+    }
+
+    #footer p{
+        text-align: center;
+        color: #fb2a05;
+        margin-top: 5px;
+        font-size: 4vw;
+        /* padding-bottom: 10px; */
+    }
+
+    .mySwiper{
+        font-size:4.74vw;
+        color: #ef3506;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .swiper-slide img{
+        display: block;
+        object-fit: cover;
+        height: 90%;
+        width: 100%;
+        padding: 10vw 3vw;
+        color: transparent;
+    }
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #con{
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 17vw;
+    }
+
+    #one{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #one h4{
+        color: #fb5204;
+        padding-bottom: .95vw;
+    }
+    #one h3{
+        padding-bottom: .95vw;
+    }
+    #one p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #two{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #two h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #two h3{
+        padding-bottom: .65vw;
+    }
+    #two p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #three{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #three h4{
+        color: #fb5204;
+        padding-bottom: 1vw;
+    }
+    #three h3{
+        padding-bottom: 1vw;
+    }
+    #three p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #four{
+        border: 1px solid #000;
+        width: 450px;
+        height: 235px;
+        padding:.55vw 1.5vw;
+    }
+    #four h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #four h3{
+        padding-bottom: .65vw;
+    }
+    #four p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #five{
+        border: 1px solid #000;
+        width: 450px;
+        height: 235px;
+        padding:.55vw 1.5vw;
+    }
+    #five h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #five h3{
+        padding-bottom: .65vw;
+    }
+    #five p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #six{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #six h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #six h3{
+        padding-bottom: .65vw;
+    }
+    #six p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #seven{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #seven h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #seven h3{
+        padding-bottom: .65vw;
+    }
+    #seven p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #eight{
+        border: 1px solid #000;
+        width: 450px;
+        height: 235px;
+        padding:.55vw 1.5vw;
+    }
+    #eight h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #eight h3{
+        padding-bottom: .65vw;
+    }
+    #eight p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #nine{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #nine h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #nine h3{
+        padding-bottom: .65vw;
+    }
+    #nine p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #ten{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #ten h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #ten h3{
+        padding-bottom: .65vw;
+    }
+    #ten p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #eleven{
+        border: 1px solid #000;
+        width: 450px;
+        height: 265px;
+        padding:.55vw 1.5vw;
+    }
+    #eleven h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #eleven h3{
+        padding-bottom: .65vw;
+    }
+    #eleven p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #twelve{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #twelve h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #twelve h3{
+        padding-bottom: .65vw;
+    }
+    #twelve p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #thirteen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #thirteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #thirteen h3{
+        padding-bottom: .65vw;
+    }
+    #thirteen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #fourteen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #fourteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #fourteen h3{
+        padding-bottom: .65vw;
+    }
+    #fourteen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #fifteen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #fifteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #fifteen h3{
+        padding-bottom: .65vw;
+    }
+    #fifteen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #sixteen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #sixteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #sixteen h3{
+        padding-bottom: .65vw;
+    }
+    #sixteen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #seventeen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #seventeen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #seventeen h3{
+        padding-bottom: .65vw;
+    }
+    #seventeen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    #eighteen{
+        border: 1px solid #000;
+        width: 450px;
+        height: 240px;
+        padding:.55vw 1.5vw;
+    }
+    #eighteen h4{
+        color: #fb5204;
+        padding-bottom: .65vw;
+    }
+    #eighteen h3{
+        padding-bottom: .65vw;
+    }
+    #eighteen p{
+        font-size: 3vw;
+        width: 430px;
+    }
+
+    /* RESPONSE AREA */
+    .response-area{
+        padding: 2vw 5vw;
+        text-align: center;
+        font-size: 2.46vw;
+
+    }
+
+    #myForm{
+        display: flex;
+        flex-direction: column;
+        padding: 1vw 5vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label{
+        font-size: 3.16vw;
+    }
+    input[type="text"]{
+        padding: 8px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        border: 1px solid #000;
+        font-size: 16px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        color: #000;
+        padding: 10px 20px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #res{
+        height: 650px;
+    }
+
+
+
+
+
+}
+
