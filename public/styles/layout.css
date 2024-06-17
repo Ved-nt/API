@@ -700,7 +700,7 @@ input[type="submit"]:hover{
 
 
 /* FOR MOBILE PHONES */
-@media(max-width:1080px) {
+@media(max-width:500px) {
 
 
     #loader h1{
@@ -886,16 +886,14 @@ input[type="submit"]:hover{
         padding:.55vw 1.5vw;
     }
     #one h4{
-        font-size: 3vw;
         color: #fb5204;
         padding-bottom: .65vw;
     }
     #one h3{
-        font-size: 3.5vw;
         padding-bottom: .65vw;
     }
     #one p{
-        font-size: 3.5vw;
+        font-size: 3.25vw;
         width: 300px;
     }
 
@@ -913,14 +911,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #two p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #three{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #three h4{
@@ -931,14 +929,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #three p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #four{
         border: 1px solid #000;
-        width: 450px;
-        height: 235px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #four h4{
@@ -949,14 +947,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #four p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #five{
         border: 1px solid #000;
-        width: 450px;
-        height: 235px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #five h4{
@@ -967,14 +965,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #five p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #six{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #six h4{
@@ -985,14 +983,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #six p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #seven{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #seven h4{
@@ -1003,14 +1001,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #seven p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #eight{
         border: 1px solid #000;
-        width: 450px;
-        height: 235px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #eight h4{
@@ -1021,14 +1019,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #eight p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #nine{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #nine h4{
@@ -1039,14 +1037,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #nine p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #ten{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #ten h4{
@@ -1057,14 +1055,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #ten p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #eleven{
         border: 1px solid #000;
-        width: 450px;
-        height: 265px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #eleven h4{
@@ -1075,14 +1073,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #eleven p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #twelve{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #twelve h4{
@@ -1093,14 +1091,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #twelve p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #thirteen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #thirteen h4{
@@ -1111,14 +1109,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #thirteen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #fourteen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #fourteen h4{
@@ -1129,14 +1127,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #fourteen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #fifteen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #fifteen h4{
@@ -1147,14 +1145,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #fifteen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #sixteen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #sixteen h4{
@@ -1165,14 +1163,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #sixteen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #seventeen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #seventeen h4{
@@ -1183,14 +1181,14 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #seventeen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     #eighteen{
         border: 1px solid #000;
-        width: 450px;
-        height: 240px;
+        width: 330px;
+        height: 180px;
         padding:.55vw 1.5vw;
     }
     #eighteen h4{
@@ -1201,15 +1199,16 @@ input[type="submit"]:hover{
         padding-bottom: .65vw;
     }
     #eighteen p{
-        font-size: 3vw;
-        width: 430px;
+        font-size: 3.25vw;
+        width: 300px;
     }
 
     /* RESPONSE AREA */
     .response-area{
         padding: 2vw 5vw;
         text-align: center;
-        font-size: 2.46vw;
+        font-size: 3.15vw;
+        color: #000;
 
     }
 
