@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 const API_URL = "https://bhagavad-gita3.p.rapidapi.com/v2";
-const RAPIDAPI_KEY = "1420254f5emshfae6f13373a4f48p1a93a6jsn908f2e75b18e";
+const RAPIDAPI_KEY = "f308760dc0msh6c9667f3cd31944p11e3e9jsn273b1a3058cf";
 const RAPIDAPI_HOST = "bhagavad-gita3.p.rapidapi.com";
 
 app.use(express.static("public"));
